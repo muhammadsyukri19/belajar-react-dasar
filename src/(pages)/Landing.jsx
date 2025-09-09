@@ -20,11 +20,11 @@ export default function Landing() {
         </nav>
       </div>
 
-      <div className="flex items-center justify-between px-20 pt-32">
-        <div className="max-w-xl">
+      <div className="flex items-center justify-between px-25 pt-35">
+        <div className="w-[800px]">
           <SplitText
             text="Hello, Saya Muhammad Syukri!"
-            className="text-2xl font-semibold text-center"
+            className="text-4xl font-semibold text-center font-agraham"
             delay={100}
             duration={0.6}
             ease="power3.out"

@@ -1,5 +1,15 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Agraham";
+  src: url("/public/fonts/Agraham.otf") format(truetype);
+  font-weight: normal;
+  font-style: normal;
+}
+.font-agraham {
+  font-family: "Agraham", sans-serif;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
